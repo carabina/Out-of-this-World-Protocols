@@ -11,12 +11,14 @@
 
 @implementation OWSpaceObject
 
+/* We override the default initializer and call our new designated initializer initWithData. Notice that our initializer returns self. */
 -(id)init
 {
     self = [self initWithData:nil andImage:nil];
     return self;
 }
 
+/*Custom initializer. This method first calls the super init method which is required of all designated initializers. This ensures our object will be properly setup. We then assign values to the properties of the OWSpaceObject instance. Finally, we return the instance. */
 -(id)initWithData:(NSDictionary *)data andImage:(UIImage *)image
 {
     self = [super init];

@@ -167,8 +167,8 @@
 		6F3DE2271806F5DE004825C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6F6C3EB1180B56FA00A60E8C /* OWSpaceObject.m */,
 				6F6C3EB2180B56FA00A60E8C /* OWSpaceObject.h */,
+				6F6C3EB1180B56FA00A60E8C /* OWSpaceObject.m */,
 				6F3DE25E18076011004825C6 /* Earth.jpg */,
 				6F3DE25F18076011004825C6 /* EinsteinRing.jpg */,
 				6F3DE26018076011004825C6 /* Jupiter.jpg */,

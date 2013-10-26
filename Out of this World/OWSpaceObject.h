@@ -22,6 +22,7 @@
 
 @property (strong, nonatomic) UIImage *spaceImage;
 
+/* Custom initializer which takes two parameters of NSDictionary and UIImage. */
 -(id)initWithData:(NSDictionary *)data andImage:(UIImage *)image;
 
 @end
